@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>我的第一篇博客文章 | Hexo</title>
+  <title>真正的第一篇记叙 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="##第一 内容  ##第二 内容  ##参考codesheep">
+  <meta name="description" content="搭建博客遇到的问题   这次搭建博客遇到好多事，虽然是按照视频一步步弄得，但是首先就遇到一个电脑提示没有git命令的问题  还没学JavaScript，当然也没听过nodejs，git就只能硬着头皮按照视频一步步来。当然也看了好几个视频。 整理一下看的coedsheep的搭建博客视频准备工作：     下载nodejs，git。（都是在官网下载）     命令行npm install -g hex">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客文章">
-<meta property="og:url" content="http://example.com/2021/08/30/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:title" content="真正的第一篇记叙">
+<meta property="og:url" content="http://example.com/2021/08/30/%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%B0%E5%8F%99/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##第一 内容  ##第二 内容  ##参考codesheep">
+<meta property="og:description" content="搭建博客遇到的问题   这次搭建博客遇到好多事，虽然是按照视频一步步弄得，但是首先就遇到一个电脑提示没有git命令的问题  还没学JavaScript，当然也没听过nodejs，git就只能硬着头皮按照视频一步步来。当然也看了好几个视频。 整理一下看的coedsheep的搭建博客视频准备工作：     下载nodejs，git。（都是在官网下载）     命令行npm install -g hex">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-08-30T02:06:02.000Z">
-<meta property="article:modified_time" content="2021-08-30T02:11:55.664Z">
+<meta property="article:published_time" content="2021-08-30T04:15:18.000Z">
+<meta property="article:modified_time" content="2021-08-30T04:38:04.856Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -73,10 +73,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-我的第一篇博客文章" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-真正的第一篇记叙" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/08/30/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="article-date">
-  <time class="dt-published" datetime="2021-08-30T02:06:02.000Z" itemprop="datePublished">2021-08-30</time>
+    <a href="/2021/08/30/%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%B0%E5%8F%99/" class="article-date">
+  <time class="dt-published" datetime="2021-08-30T04:15:18.000Z" itemprop="datePublished">2021-08-30</time>
 </a>
     
   </div>
@@ -87,7 +87,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      我的第一篇博客文章
+      真正的第一篇记叙
     </h1>
   
 
@@ -95,18 +95,34 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>##第一</p>
-<p>内容</p>
-<hr>
-<p>##第二</p>
-<p>内容</p>
-<hr>
-<p>##参考<br>codesheep</p>
+        <h2 id="搭建博客遇到的问题"><a href="#搭建博客遇到的问题" class="headerlink" title="搭建博客遇到的问题"></a>搭建博客遇到的问题</h2><pre><code>   这次搭建博客遇到好多事，虽然是按照视频一步步弄得，但是首先就遇到一个电脑提示没有git命令的问题
+</code></pre>
+<p>还没学JavaScript，当然也没听过nodejs，git就只能硬着头皮按照视频一步步来。<br>当然也看了好几个视频。</p>
+<h2 id="整理一下看的coedsheep的搭建博客视频"><a href="#整理一下看的coedsheep的搭建博客视频" class="headerlink" title="整理一下看的coedsheep的搭建博客视频"></a>整理一下看的coedsheep的搭建博客视频</h2><pre><code>准备工作：
+    下载nodejs，git。（都是在官网下载）
+    命令行npm install -g hexo-cli(全局安装hexo框架)
+    cnpm install --save hexo-deployer-git(安装git部署插件)
+开始：
+    创建文件夹(起名)，进入该路径。
+    hexo init   //初始化博客
+    hexo s     //本地启动博客
+    hexo n    //生成新文章
+     hexo clean  //清理
+    hexo g      //生成静态文件，我也不了解看着这个网站有讲解  &quot;https://hexo.io/zh-cn/docs/commands.html&quot;
+配置-config.yml
+    目前具体配置最下面的那几段。
+    type: git
+    repo: url
+    branch: master
+部署：
+    hexo d
+    //我没实验，只是听他说我感觉url是自己的网站且能访问就行，他具体讲的是github上创建的仓库，注意仓库名要取   用户名.github.io
+</code></pre>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/30/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="cksy5jwm80002f8tm9q7keujn" data-title="我的第一篇博客文章" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/08/30/%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%B0%E5%8F%99/" data-id="cksy5jwm60001f8tmghq9hdhh" data-title="真正的第一篇记叙" class="article-share-link">Share</a>
       
       
       
@@ -116,19 +132,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2021/08/30/%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%B0%E5%8F%99/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          真正的第一篇记叙
-        
-      </div>
-    </a>
   
-  
-    <a href="/2021/08/30/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2021/08/30/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">我的第一篇博客文章</div>
     </a>
   
 </nav>
